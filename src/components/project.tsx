@@ -39,10 +39,10 @@ export const Project = ({ project, index }: TProps) => {
         once: true,
       }}
       custom={index}
-      className="flex flex-col rounded border p-5 md:w-1/2"
+      className="flex flex-col rounded border p-5 "
     >
       <Link
-        href={links.github}
+        href={links.preview}
         aria-label={title}
         target="_blank"
         className="overflow-hidden rounded"
@@ -55,9 +55,11 @@ export const Project = ({ project, index }: TProps) => {
           className="rounded transition-transform hover:scale-105"
         />
       </Link>
+
       <h3 className="mt-3 text-xl font-medium">{title}</h3>
       <p className="text-muted-foreground mb-2 mt-1">{description}</p>
-      <div className="flex flex-wrap gap-2">
+
+      <div className="mt-4 flex flex-wrap gap-2">
         {technologies.map((tech) => (
           <span className="rounded-full border px-3 py-1 text-sm" key={tech}>
             {tech}

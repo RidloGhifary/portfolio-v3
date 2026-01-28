@@ -40,12 +40,13 @@ export const Intro = () => {
         animate={{ opacity: 1, y: 0 }}
         className="font-heading max-w-3xl text-4xl font-extrabold md:text-5xl"
       >
-        Hi I&#39;m a{' '}
+        I&#39;m a{' '}
         <span className="bg-gradient-to-r from-rose-700 to-pink-600 bg-clip-text text-transparent">
-          Frontend
+          Fullstack
         </span>{' '}
-        developer creating modern web apps.
+        developer.
       </motion.h1>
+
       <motion.p
         initial={{ opacity: 0, y: 100 }}
         animate={{ opacity: 1, y: 0 }}
@@ -54,9 +55,10 @@ export const Intro = () => {
         }}
         className="text-muted-foreground max-w-xl"
       >
-        A frontend developer based in the Poland. I&#39;m passionate about
-        building modern web applications using Next.js, React, and Tailwind CSS.
+        A Fullstack Developer specializing in building reliable, scalable, and
+        maintainable web systems with a focus on performance and user.
       </motion.p>
+
       <motion.div
         initial={{ opacity: 0, y: 100 }}
         animate={{ opacity: 1, y: 0 }}
@@ -70,23 +72,26 @@ export const Intro = () => {
             Get in touch <Icons.arrowRight className="ml-2 size-4" />
           </Link>
         </Button>
+
         <Button variant="outline" size="lg" className="hidden sm:flex" asChild>
           <a href="/michalskolak.pdf" download>
             Download CV <Icons.download className="ml-2 size-4" />
           </a>
         </Button>
+
         <Button variant="outline" size="icon" asChild>
           <Link
-            href="https://www.linkedin.com/in/micha%C5%82-skolak-06905524b"
+            href="https://www.linkedin.com/in/ridlo-ghifary/"
             aria-label="Linkedin"
             target="_blank"
           >
             <Icons.linkedin className="size-5" />
           </Link>
         </Button>
+
         <Button variant="outline" size="icon" asChild>
           <Link
-            href="https://github.com/Skolaczk"
+            href="https://github.com/RidloGhifary"
             aria-label="Github"
             target="_blank"
           >

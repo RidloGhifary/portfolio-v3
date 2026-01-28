@@ -1,8 +1,4 @@
-import Link from 'next/link';
-
-import { buttonVariants } from '@/components/button';
 import { Icons } from '@/components/icons';
-import { cn } from '@/lib/utils';
 
 export const links = [
   {
@@ -29,94 +25,79 @@ export const links = [
 
 export const projectsData = [
   {
-    image: '/images/project-2.webp',
-    title: 'Next-starter',
+    image: '/images/project-view-api.png',
+    title: 'View-API',
     description:
       'A Next.js starter template, packed with features like TypeScript, Tailwind CSS, Next-auth, Eslint, Stripe, testing tools and more.',
-    technologies: ['Next.js', 'Tailwind', 'Shadcn/ui', 'Next-auth', 'Prisma'],
+    technologies: ['Nodejs.js', 'Express.js', 'Tailwind', 'NPM'],
     links: {
-      preview: 'https://next-starter-skolaczk.vercel.app',
-      github: 'https://github.com/Skolaczk/next-starter',
-      githubApi: 'https://api.github.com/repos/Skolaczk/next-starter',
+      preview: 'https://ridloghifary.github.io/view-api/',
+      github: 'https://github.com/RidloGhifary/view-api',
+      githubApi: 'https://api.github.com/repos/RidloGhifary/view-api',
     },
   },
   {
-    image: '/images/project-1.webp',
-    title: 'SocialHub',
+    image: '/images/project-betty.png',
+    title: 'Betty - POS System',
     description:
-      'SocialHub is a next-generation social media app developed using Next.js and Nest.js.',
-    technologies: ['Next.js', 'TypeScript', ' Nest.js', 'Tailwind', 'Prisma'],
+      'A Point of Sale (POS) system designed for small to medium-sized businesses, enabling efficient sales transactions and inventory management.',
+    technologies: ['Next.js', 'TypeScript', 'Tailwind', 'Express.js', 'Docker'],
     links: {
-      preview: 'https://socialhub-ms.vercel.app/',
-      github: 'https://github.com/Skolaczk/SocialHub',
-      githubApi: 'https://api.github.com/repos/Skolaczk/SocialHub',
+      preview: 'https://betty.id/',
+      github: '-',
+      githubApi: '-',
+    },
+  },
+  {
+    image: '/images/project-portfolio.png',
+    title: 'Personal Portfolio V2',
+    description:
+      'My personal portfolio website showcasing my projects, skills, and experience as a fullstack web developer.',
+    technologies: ['Next.js', 'TypeScript', 'Tailwind'],
+    links: {
+      preview: 'https://www.ridloghfry.web.id/',
+      github: '-',
+      githubApi: '-',
+    },
+  },
+  {
+    image: '/images/project-portfolio-v1.png',
+    title: 'Personal Portfolio V1',
+    description:
+      'My personal portfolio website showcasing my projects, skills, and experience as a fullstack web developer.',
+    technologies: ['Next.js', 'TypeScript', 'Tailwind'],
+    links: {
+      preview: 'https://v1.ridloghfry.web.id/',
+      github: '-',
+      githubApi: '-',
     },
   },
 ] as const;
 
 export const experiencesData = [
   {
-    title: 'Web developer intern',
-    company: 'WEB-BOX, Tarnobrzeg PL',
+    title: 'Fullstack Web Developer',
+    company: 'PT. Daya Reka Digital, Indonesia',
     description:
-      'During this internship, I focused on two key areas: creating Wordpress plugins and managing website content, plugins, and settings.',
-    period: '2023',
-    technologies: ['HTML', 'CSS', 'JavaScript', 'Wordpress'],
+      'At Daya Reka Digital, I was responsible for developing and maintaining web applications for various clients. My role involved collaborating with cross-functional teams to deliver high-quality software solutions that met client requirements.',
+    period: '2024 - Present',
+    technologies: ['Next.js', 'Tailwind', 'Express.js', 'Docker', 'Redis'],
   },
   {
-    title: 'Frontend developer & UI designer',
-    company: 'Freelancing, remote',
+    title: 'Freelancer Fullstack Developer',
+    company: 'Alone Worker',
     description:
-      'As a freelancer, I specialized in graphic design using Figma and website development using Next.js with Sanity CMS. I undertook projects independently, from design conceptualization to final implementation, ensuring client satisfaction.',
-    period: '2023 - 2024',
-    technologies: ['Next.js', 'TypeScript', 'Sanity CMS', 'Tailwind'],
-  },
-  {
-    title: 'Frontend developer intern',
-    company: 'Chop-chop, remote',
-    description:
-      'During my internship at Chop-Chop, I collaborated with an experienced IT team, focusing on tasks in Next.js. This experience provided valuable insights into teamwork and advanced my proficiency in Next.js.',
-    period: '2024',
-    technologies: ['Next.js', 'React', 'TypeScript', 'Tailwind'],
-  },
-  {
-    title: 'Frontend developer & UI designer',
-    company: 'GeoScan, remote',
-    description: (
-      <>
-        At GeoScan, I collaborate with frontend, backend, and GIS specialists to
-        build{' '}
-        <Link
-          className={cn(
-            buttonVariants({ variant: 'link' }),
-            'm-0 h-fit p-0 text-base'
-          )}
-          href="https://geoscan-app.com"
-          target="_blank"
-        >
-          geoscan-app.com
-        </Link>{' '}
-        — a platform for generating real estate reports. I’m responsible for
-        developing and maintaining the frontend, as well as designing UI/UX to
-        ensure a clear and intuitive user experience.
-      </>
-    ),
-    period: '2024 - present',
-    technologies: ['Next.js', 'TypeScript', 'Tailwind', 'Supabase', 'Leaflet'],
+      'As a freelance fullstack web developer, I have worked with various clients to deliver high-quality software solutions that meet their requirements. I am passionate about delivering excellent user experiences and I am always looking for new challenges to take on.',
+    period: '2025 - Present',
+    technologies: ['Next.js', 'TypeScript', 'Docker', 'Tailwind', 'Supabase'],
   },
 ] as const;
 
 export const skillsData = [
-  { icon: <Icons.html className="size-12" /> },
-  { icon: <Icons.css className="size-12" /> },
-  { icon: <Icons.sass className="size-12" /> },
   { icon: <Icons.tailwind className="size-12" /> },
   { icon: <Icons.javascript className="size-12" /> },
   { icon: <Icons.typescript className="size-12" /> },
   { icon: <Icons.react className="size-12" /> },
-  { icon: <Icons.redux className="size-12" /> },
   { icon: <Icons.nextjs className="size-12" /> },
-  { icon: <Icons.nestjs className="size-12" /> },
-  { icon: <Icons.prisma className="size-12" /> },
   { icon: <Icons.docker className="size-12" /> },
 ] as const;

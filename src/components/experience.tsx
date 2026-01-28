@@ -20,8 +20,9 @@ export const Experience = () => {
     >
       <SectionHeading
         heading="My Experience"
-        content="Professional experience that I have accumulated over several years."
+        content="Professional experience that I have accumulated for a year."
       />
+
       <div className="relative max-w-screen-md">
         {experiencesData.map(
           ({ title, description, company, period, technologies }) => (
@@ -52,6 +53,7 @@ export const Experience = () => {
                   </div>
                   <span className="text-lg font-semibold">{company}</span>
                 </div>
+
                 <div>
                   <h3 className="text-xl font-medium">{title}</h3>
                   <div className="mt-1 flex items-center gap-2 text-sm">
@@ -59,7 +61,9 @@ export const Experience = () => {
                     <span>{period}</span>
                   </div>
                 </div>
+
                 <p className="text-muted-foreground">{description}</p>
+
                 <div className="flex flex-wrap gap-2">
                   {technologies.map((tech) => (
                     <div
