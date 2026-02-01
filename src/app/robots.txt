@@ -1,0 +1,4 @@
+User-Agent: *
+Allow: /
+
+Sitemap: https://v1.ridloghfry.web.id/sitemap.xml
