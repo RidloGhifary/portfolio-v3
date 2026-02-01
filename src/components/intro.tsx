@@ -14,7 +14,7 @@ export const Intro = () => {
     <section
       ref={ref}
       id="home"
-      className="my-10 flex scroll-mt-96 flex-col items-center gap-5 text-center sm:mt-28"
+      className="flex scroll-mt-96 flex-col items-center gap-5 text-center"
     >
       <motion.div
         initial={{ opacity: 0, scale: 0 }}
@@ -35,10 +35,11 @@ export const Intro = () => {
           <span className="font-mono text-sm">Available for work!</span>
         </Link>
       </motion.div>
+
       <motion.h1
         initial={{ opacity: 0, y: 100 }}
         animate={{ opacity: 1, y: 0 }}
-        className="font-heading max-w-3xl text-4xl font-extrabold md:text-5xl"
+        className="font-heading max-w-3xl text-5xl font-extrabold md:text-6xl"
       >
         I&#39;m a{' '}
         <span className="bg-gradient-to-r from-rose-700 to-pink-600 bg-clip-text text-transparent">
@@ -73,11 +74,11 @@ export const Intro = () => {
           </Link>
         </Button>
 
-        <Button variant="outline" size="lg" className="hidden sm:flex" asChild>
+        {/* <Button variant="outline" size="lg" className="hidden sm:flex" asChild>
           <a href="/michalskolak.pdf" download>
             Download CV <Icons.download className="ml-2 size-4" />
           </a>
-        </Button>
+        </Button> */}
 
         <Button variant="outline" size="icon" asChild>
           <Link

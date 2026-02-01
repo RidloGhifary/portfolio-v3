@@ -6,29 +6,25 @@ import { Header } from '@/components/header';
 import { Intro } from '@/components/intro';
 import Particles from '@/components/particles';
 import { Projects } from '@/components/projects';
-import { SectionDivider } from '@/components/section-divider';
 import { ThemeToggle } from '@/components/theme-toggle';
 
 const HomePage = async () => {
   return (
     <>
+      <Particles
+        className="animate-fade-in fixed inset-0 -z-10 h-screen w-full"
+        quantity={200}
+      />
+
       <div className="container flex flex-col items-center">
         <Header />
-        <Intro />
 
-        <Particles
-          className="animate-fade-in absolute inset-0 -z-10 h-full"
-          quantity={100}
-        />
-
-        <SectionDivider />
-
-        <Particles
-          className="animate-fade-in absolute inset-0 -z-10 h-full"
-          quantity={100}
-        />
+        <div className="-mt-20 flex min-h-[calc(100vh-10dvh)] items-center justify-center">
+          <Intro />
+        </div>
 
         <About />
+
         <Experience />
         <Projects />
         <Contact />
