@@ -28,7 +28,7 @@ export const projectsData = [
     image: '/images/project-view-api.png',
     title: 'View-API',
     description:
-      'A Next.js starter template, packed with features like TypeScript, Tailwind CSS, Next-auth, Eslint, Stripe, testing tools and more.',
+      'A local mock server with a live editor—no backend, no redeploy, no save button. Build frontend without the wait.',
     technologies: ['Nodejs.js', 'Express.js', 'Tailwind', 'NPM'],
     links: {
       preview: 'https://ridloghifary.github.io/view-api/',
@@ -49,25 +49,25 @@ export const projectsData = [
     },
   },
   {
-    image: '/images/project-portfolio.png',
-    title: 'Personal Portfolio V2',
+    image: '/images/project-nikahku.png',
+    title: 'Nikahku - Wedding Service',
     description:
-      'My personal portfolio website showcasing my projects, skills, and experience as a fullstack web developer.',
+      'My Freelance Wedding project, built with Next.js and Tailwind CSS. It features a responsive design, smooth animations, and an easy-to-use interface for creating personalized wedding services.',
     technologies: ['Next.js', 'TypeScript', 'Tailwind'],
     links: {
-      preview: 'https://www.ridloghfry.web.id/',
+      preview: 'https://nikahku.ridloghfry.net/',
       github: '-',
       githubApi: '-',
     },
   },
   {
-    image: '/images/project-portfolio-v1.png',
-    title: 'Personal Portfolio V1',
+    image: '/images/project-portfolio.png',
+    title: 'Personal Portfolio',
     description:
-      'My personal portfolio website showcasing my projects, skills, and experience as a fullstack web developer.',
+      'My personal portfolio website showcasing my projects, skills, and experience as a web developer.',
     technologies: ['Next.js', 'TypeScript', 'Tailwind'],
     links: {
-      preview: 'https://v1.ridloghfry.web.id/',
+      preview: 'https://www.ridloghfry.web.id/',
       github: '-',
       githubApi: '-',
     },
