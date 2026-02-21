@@ -72,6 +72,18 @@ export const projectsData = [
       githubApi: '-',
     },
   },
+  {
+    image: '/images/project-youvert.png',
+    title: 'Youvert - Youtube Playlist Converter',
+    description:
+      'A web application that allows users to convert YouTube playlists into spotify playlists.',
+    technologies: ['Next.js', 'TypeScript', 'Tailwind'],
+    links: {
+      preview: 'https://spotube.convert.ridloghfry.web.id/',
+      github: '-',
+      githubApi: '-',
+    },
+  },
 ] as const;
 
 export const experiencesData = [
